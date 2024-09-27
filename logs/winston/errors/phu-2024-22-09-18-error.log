@@ -1,0 +1,48 @@
+Sun Sep 22 2024 18:35:6 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`.
+Sun Sep 22 2024 18:36:5 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`.
+Sun Sep 22 2024 18:37:0 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`.
+Sun Sep 22 2024 18:38:5 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`.
+Sun Sep 22 2024 18:46:10 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Timed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 1)
+Sun Sep 22 2024 18:48:36 } [PH] error: Server has closed the connection.
+Sun Sep 22 2024 18:49:5 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`.
+Sun Sep 22 2024 18:50:5 } [PH] error: 
+Invalid `prisma.appointment.findMany()` invocation:
+
+
+Can't reach database server at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`
+
+Please make sure your database server is running at `aws-0-ap-southeast-1.pooler.supabase.com`:`6543`.
