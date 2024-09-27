@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "src/server.ts",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "ass": "ts-node-dev --respawn --transpile-only assignment.ts",
@@ -19,8 +18,7 @@
     "prisma:migrate": "npx prisma migrate dev ",
     "prisma:generate": "npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts",
-    "start": "node dist/server.js"
+    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
