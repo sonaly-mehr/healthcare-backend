@@ -6,16 +6,6 @@
     "auditLog": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\.92b7e1480ee06991995fdb88be823ca705d2ef77-audit.json",
     "files": [
         {
-            "date": 1726245497270,
-            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-13-09-22-success.log",
-            "hash": "3b128c182e4402fd4db34ce54cee2a225c6898705d62ae40ec61f3fe5473b169"
-        },
-        {
-            "date": 1726248645227,
-            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-13-09-23-success.log",
-            "hash": "8a10bdb7d11584c1a4308084aec56477f0dc34b0398b0fa650f9ed7c2de7a30f"
-        },
-        {
             "date": 1726590188727,
             "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-17-09-22-success.log",
             "hash": "d91ecda567e91e8e3552b7bf22141c608a5dc33c83c915b10ee296281da6d806"
@@ -219,6 +209,31 @@
             "date": 1727453569910,
             "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-27-09-22-success.log",
             "hash": "315012f28b91fb25e684e926eb20cc4d193440be08dbbb8b72f5ffe2bf32c1b4"
+        },
+        {
+            "date": 1727512705584,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-28-09-14-success.log",
+            "hash": "087861b3b18043d3d140fc828bcf154719a45385110a334138cac585b19bf5f4"
+        },
+        {
+            "date": 1727514042860,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-28-09-15-success.log",
+            "hash": "d75867351299292f5d0b87c267c06d4823d5c782dbddbf15b5a8df698769afb3"
+        },
+        {
+            "date": 1727520904552,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-28-09-16-success.log",
+            "hash": "291e4e2894d33fb8b2218f7e247f0fde5860d2d6aacf8d993b27867f91b51d30"
+        },
+        {
+            "date": 1727529613931,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-28-09-19-success.log",
+            "hash": "7dc40b63ad5bbdc6d842ca52592ae1e0301494dd8bf6febe7e0f6bf0b4d1f5d3"
+        },
+        {
+            "date": 1727538711523,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\successes\\phu-2024-28-09-21-success.log",
+            "hash": "fd39a391710688f17b2c878a155f0df6884c3e159ec7fa029b6484434a695cde"
         }
     ],
     "hashType": "sha256"

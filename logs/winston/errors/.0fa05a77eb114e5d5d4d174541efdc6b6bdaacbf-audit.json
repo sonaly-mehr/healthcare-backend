@@ -6,16 +6,6 @@
     "auditLog": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\.0fa05a77eb114e5d5d4d174541efdc6b6bdaacbf-audit.json",
     "files": [
         {
-            "date": 1726245497276,
-            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-13-09-22-error.log",
-            "hash": "5dbe3ca247a047156b2681b01a849574c2d70098d5c2fa912c98bb7d36df85a4"
-        },
-        {
-            "date": 1726248645232,
-            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-13-09-23-error.log",
-            "hash": "f2bc6b5d68ffe5d028cffbb924d33a3a6c859a1a1ee33165d2ad7795c479f123"
-        },
-        {
             "date": 1726590188733,
             "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-17-09-22-error.log",
             "hash": "d955e512eb9b46142fbb962b5b341a0062ef6523241c1eedc047aa46f2ccbbce"
@@ -239,6 +229,31 @@
             "date": 1727453569918,
             "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-27-09-22-error.log",
             "hash": "899f21e798a56e5583a006e5986f9e53101c5a4adf99fb8691f4629c400a9ecd"
+        },
+        {
+            "date": 1727512705593,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-28-09-14-error.log",
+            "hash": "6eb0b6927dd74f256859ca814e107736fa68b231f5208c10ae0502afe4a0329d"
+        },
+        {
+            "date": 1727514042866,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-28-09-15-error.log",
+            "hash": "2715d477f1411196a3a09bfb0a2012fd73b2ec0eac427e442835921f6605d57a"
+        },
+        {
+            "date": 1727520904557,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-28-09-16-error.log",
+            "hash": "52ea92da64773206a88a03b01d718a0a69926154010b66527e5fcf4f27c6fe91"
+        },
+        {
+            "date": 1727529613936,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-28-09-19-error.log",
+            "hash": "801f9aef57fc5752c68d3d43297b290481e2c9f600b869ab3a45c53f9b6a9d0e"
+        },
+        {
+            "date": 1727538711531,
+            "name": "E:\\Programming Hero\\Projects\\Health-Care-Management\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-28-09-21-error.log",
+            "hash": "286f8c94fb45f656e411de8b12800e64a8e2e03f285251ce14b9f019e62aebeb"
         }
     ],
     "hashType": "sha256"

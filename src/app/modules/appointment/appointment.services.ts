@@ -76,6 +76,9 @@ const createAppointment = async (
       },
     });
 
+    // Log the result to ensure it has an ID
+    console.log('Appointment created:', result);
+
     await transactionClient.doctorSchedule.updateMany({
       where: {
         doctorId: isDoctorExists.id,
@@ -87,13 +90,13 @@ const createAppointment = async (
       },
     });
 
-    const transactionId: string = generateTransactionId(result.id);
+    // const transactionId: string = generateTransactionId(result.id);
 
     await transactionClient.payment.create({
       data: {
         appointmentId: result.id,
         amount: result.doctor.apointmentFee,
-        transactionId,
+        // transactionId,
       },
     });
 
@@ -302,7 +305,7 @@ const changeAppointmentStatus = async (
   const isDoctorsAppointment = await prisma.appointment.findFirst({
     where: {
       id: appointmentId,
-      paymentStatus: PaymentStatus.PAID,
+      paymentStatus: PaymentStatus.COMPLETED,
     },
     include: {
       doctor: true,

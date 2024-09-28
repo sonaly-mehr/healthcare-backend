@@ -8,7 +8,7 @@ generator client {
 datasource db {
   provider = "postgresql"
   url       = env("DATABASE_URL")
-  // directUrl = env("DIRECT_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model User {
@@ -194,7 +194,7 @@ model Appointment {
 
   videoCallingId String
   status         AppointmentStatus @default(SCHEDULED)
-  paymentStatus  PaymentStatus     @default(UNPAID)
+  paymentStatus  PaymentStatus     @default(PENDING)
   notes          String?
   createdAt      DateTime          @default(now())
   updatedAt      DateTime          @updatedAt
@@ -206,14 +206,29 @@ model Appointment {
   @@map("appointments")
 }
 
+// model Payment {
+//   id                 String        @id @default(uuid())
+//   appointmentId      String        @unique
+//   appointment        Appointment   @relation(fields: [appointmentId], references: [id])
+//   amount             Float         @default(0.00)
+//   transactionId      String        @unique
+//   status             PaymentStatus @default(UNPAID)
+//   paymentGatewayData Json?
+
+//   @@map("payments")
+// }
+
 model Payment {
-  id                 String        @id @default(uuid())
-  appointmentId      String        @unique
-  appointment        Appointment   @relation(fields: [appointmentId], references: [id])
-  amount             Float         @default(0.00)
-  transactionId      String        @unique
-  status             PaymentStatus @default(UNPAID)
-  paymentGatewayData Json?
+  id              String    @id @default(uuid())
+  appointmentId   String    @unique
+  appointment     Appointment @relation(fields: [appointmentId], references: [id])
+  amount          Float
+  currency        String    @default("usd")
+  status          PaymentStatus @default(PENDING)
+  stripePaymentId String?   @unique// Stripe payment intent ID
+  stripeCustomerId String?  // Stripe customer ID
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
 
   @@map("payments")
 }
@@ -300,5 +315,8 @@ enum AppointmentStatus {
 
 enum PaymentStatus {
   UNPAID
-  PAID
+  PENDING
+  COMPLETED
+  FAILED
+  REQUIRES_ACTION
 }
