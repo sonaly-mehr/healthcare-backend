@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/server.ts",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "ass": "ts-node-dev --respawn --transpile-only assignment.ts",
