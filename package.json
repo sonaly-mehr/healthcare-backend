@@ -5,6 +5,7 @@
   "license": "MIT",
   
   "scripts": {
+    "start": "ts-node src/server.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "ass": "ts-node-dev --respawn --transpile-only assignment.ts",
     "prod": "NODE_ENV=production ts-node-dev --respawn --transpile-only src/server.ts",
