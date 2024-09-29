@@ -3,11 +3,9 @@ import app from './app';
 import config from './config';
 import { errorlogger, logger } from './shared/logger';
 
-const port = process.env.PORT || 5000;
-
 async function bootstrap() {
-  const server: Server = app.listen(port, () => {
-    logger.info(`Server running on port ${port}`);
+  const server: Server = app.listen(config.port, () => {
+    logger.info(`Server running on port ${config.port}`);
   });
 
   const exitHandler = () => {
