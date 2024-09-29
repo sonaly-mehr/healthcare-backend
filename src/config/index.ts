@@ -1,12 +1,12 @@
 import dotenv from 'dotenv';
 import path from 'path';
 
-const envPath =
-  process.env.NODE_ENV === 'production'
-    ? path.join(process.cwd(), '.env.prod')
-    : path.join(process.cwd(), '.env');
+// const envPath =
+//   process.env.NODE_ENV === 'production'
+//     ? path.join(process.cwd(), '.env.prod')
+//     : path.join(process.cwd(), '.env');
 
-dotenv.config({ path: envPath });
+dotenv.config({ path: path.join(process.cwd(), '.env') });
 
 export default {
   env: process.env.NODE_ENV,
