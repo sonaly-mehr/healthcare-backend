@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "src/server.ts",
   "license": "MIT",
-  
   "scripts": {
     "start": "ts-node src/server.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
@@ -15,7 +14,7 @@
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "prettier:fix": "prettier --write .",
     "lint-prettier": "yarn lint:check && yarn prettier:check",
-    "prepare": "husky install",
+    "prepare": "if [ $NODE_ENV != 'production' ]; then husky install; fi",
     "husky-prepare-pre-commit": "husky add .husky/pre-commit 'yarn lint-staged'",
     "prisma:migrate": "npx prisma migrate dev ",
     "prisma:generate": "npx prisma generate",
