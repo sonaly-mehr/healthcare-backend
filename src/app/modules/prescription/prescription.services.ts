@@ -14,7 +14,7 @@ const insertIntoDB = async (data: Partial<Prescription>, user: any): Promise<Pre
   const isAppointmentExists = await prisma.appointment.findFirstOrThrow({
     where: {
       id: data.appointmentId,
-      paymentStatus: PaymentStatus.PAID
+      paymentStatus: PaymentStatus.COMPLETED
     },
     include: {
       doctor: true
