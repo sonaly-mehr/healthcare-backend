@@ -1,7 +1,7 @@
 {
   "name": "health-care",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "start": "node dist/server.js",
