@@ -1,10 +1,10 @@
 {
   "name": "health-care",
   "version": "1.0.0",
-  "main": "src/server.ts",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "ass": "ts-node-dev --respawn --transpile-only assignment.ts",
     "prod": "cross-env NODE_ENV=production ts-node-dev --respawn --transpile-only src/server.ts",
@@ -19,7 +19,8 @@
     "prisma:migrate": "npx prisma migrate dev ",
     "prisma:generate": "npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts"
+    "seed": "ts-node-dev --respawn --transpile-only prisma/seed.ts",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.7.1",
