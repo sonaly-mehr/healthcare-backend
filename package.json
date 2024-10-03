@@ -14,7 +14,7 @@
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "prettier:fix": "prettier --write .",
     "lint-prettier": "yarn lint:check && yarn prettier:check",
-    "prepare": "if [ $NODE_ENV != 'production' ]; then husky install; fi",
+    "prepare": "cross-env NODE_ENV=production husky install",
     "husky-prepare-pre-commit": "husky add .husky/pre-commit 'yarn lint-staged'",
     "prisma:migrate": "npx prisma migrate dev ",
     "prisma:generate": "npx prisma generate",
