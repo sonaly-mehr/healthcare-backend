@@ -7,6 +7,8 @@ import cookieParser from 'cookie-parser';
 import cron from 'node-cron';
 import { AppointmentServices } from './app/modules/appointment/appointment.services';
 import { errorlogger } from './shared/logger';
+import dotenv from 'dotenv';
+dotenv.config();
 import config from './config';
 
 const app: Application = express();
